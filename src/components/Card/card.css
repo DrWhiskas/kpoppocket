@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+.card {
+	width: 450px;
+	height: 600px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.card__img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 2rem;
+}
+.card__header {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 6rem;
+	align-items: center;
+	text-align: center;
+	font-family: 'Pokemon Solid', sans-serif;
+}
+.card__header__name {
+	color: white;
+	text-shadow: 2px 2px 0px #333333, 5px 4px 0px rgba(0, 0, 0, 0.15);
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+
+.card__content {
+	position: absolute;
+	top: 55%;
+    padding: 0rem 2rem;
+}
+.card__attack {
+    
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}

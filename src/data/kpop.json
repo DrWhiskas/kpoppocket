@@ -1,0 +1,342 @@
+{
+	"bg": [
+		{
+			"id": 0,
+			"name": "Stray Kids",
+			"logo": "/media/skzLogo.png",
+			"members": [
+				{
+					"name": "Bang Chan",
+					"img": {
+						"standard": "https://assets.mycast.io/actor_images/actor-chris-bang-bang-chan-347865_large.jpg?1642530450",
+						"ex": "https://malevolentdark.com/wp-content/uploads/2024/12/Screenshot-2024-12-26-222106-1024x491.png"
+					},
+					"type": "Psychic",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Psychic",
+							"name": "Studio Session",
+							"power": 50,
+							"description": "Deals 50 damage and allows you to draw one card from your deck."
+						},
+						{
+							"category": "ex",
+							"type": "Psychic",
+							"name": "Double Flame",
+							"power": 80,
+							"description": "Deals 80 damage and reduces incoming damage by 20 in the next turn."
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Leader",
+							"power": "",
+							"description": "Boosts the attacks of all team members by 30 damage."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "130"
+						},
+						{
+							"category": "ex",
+							"number": "200"
+						}
+					]
+				},
+				{
+					"name": "Lee Know",
+					"img": {
+						"standard": "https://boo-prod.b-cdn.net/database/profiles/1675578610644f666be79d3d6dca48ab6df87773941a3.jpeg",
+						"ex": "https://i.pinimg.com/736x/b0/73/87/b07387f3aa975c0446090ff3ca152acd.jpg"
+					},
+					"type": "Steel",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Steel",
+							"name": "Dance Break",
+							"power": 60,
+							"description": "Deals 60 damage. If this card is used after another member's attack, deal an extra 30"
+						},
+						{
+							"category": "ex",
+							"type": "Steel",
+							"name": "Cat Strike",
+							"power": 90,
+							"description": "Deals 90 damage. Flip a coin; if heads, deal an extra 30 damage"
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "3RACAT",
+							"power": "Gains +30 damage on attacks when HP is above 100.",
+							"description": "Boosts the attacks of all team members by 30 damage."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "120"
+						},
+						{
+							"category": "ex",
+							"number": "190"
+						}
+					]
+				},
+				{
+					"name": "Changbin",
+					"img": {
+						"standard": "https://i.pinimg.com/736x/ea/05/66/ea05664d5b9ae135036b6affbf0837c9.jpg",
+						"ex": "https://pbs.twimg.com/media/GW2v2U0XgAEW2Y-.jpg"
+					},
+					"type": "Fighting",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Fighting",
+							"name": "ULTRA",
+							"power": 70,
+							"description": " Deals 70 damage. If the opponent’s HP is above 100, deal an extra 20 damage."
+						},
+						{
+							"category": "ex",
+							"type": "Steel",
+							"name": "Bass Boom",
+							"power": 100,
+							"description": "Deals 100 damage and stuns the opponent for one turn."
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Rap Rush",
+							"power": "",
+							"description": "Each time this card attacks, it gains +20 HP."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "140"
+						},
+						{
+							"category": "ex",
+							"number": "220"
+						}
+					]
+				},
+				{
+					"name": "Hyunjin",
+					"img": {
+						"standard": "https://i.pinimg.com/736x/55/67/b7/5567b76ca277016635580c38a9272d57.jpg",
+						"ex": "https://i.pinimg.com/736x/77/77/45/7777457a866da56ad8bcb94292337d8f.jpg"
+					},
+					"type": "Dark",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Dark",
+							"name": "Center Stage",
+							"power": 50,
+							"description": "Deals 50 damage. Opponent’s benched cards take 10 damage each."
+						},
+						{
+							"category": "ex",
+							"type": "Dark",
+							"name": "Sexy Dance",
+							"power": 110,
+							"description": "Deals 110 damage. If this Felix is on your bench , deal an extra 30 damage"
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Charisma",
+							"power": "",
+							"description": "Opponents' attacks deal 20 less damage to this card."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "70"
+						},
+						{
+							"category": "ex",
+							"number": "160"
+						}
+					]
+				},
+				{
+					"name": "Han",
+					"img": {
+						"standard": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Han_at_Golden_Disk_Awards_on_January_6%2C_2019.jpg/640px-Han_at_Golden_Disk_Awards_on_January_6%2C_2019.jpg",
+						"ex": "https://i1.sndcdn.com/artworks-fIWy7bODfgp7qBm8-hLo8ZA-t1080x1080.jpg"
+					},
+					"type": "Electric",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Electric",
+							"name": "3RACHA Burst",
+							"power": 60,
+							"description": "Deals 60 damage. If Changbin or Bang Chan is in play, deal an extra 40 damage."
+						},
+						{
+							"category": "ex",
+							"type": "Electric",
+							"name": "Quicksilver Rhyme",
+							"power": 80,
+							"description": "Deals 80 damage and prevents the opponent from retreating in the next turn."
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Speed",
+							"power": "",
+							"description": "Can attack twice in one turn, but the second attack deals half damage."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "90"
+						},
+						{
+							"category": "ex",
+							"number": "170"
+						}
+					]
+				},
+				{
+					"name": "Felix",
+					"img": {
+						"standard": "https://i.pinimg.com/736x/ce/c9/c5/cec9c524e47c4b060767116c269be671.jpg",
+						"ex": "https://pbs.twimg.com/media/GiN7gpTWEAA5K9D?format=jpg&name=medium"
+					},
+					"type": "Fairy",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Fairy",
+							"name": "Sunshine",
+							"power": 50,
+							"description": "Deals 50 damage. Heals 30 HP from one benched card.If you got Hyunjin on your bench, heal 50 HP instead."
+						},
+						{
+							"category": "ex",
+							"type": "Fairy",
+							"name": "5 Star Michelin",
+							"power": 80,
+							"description": "Call two ally cards from your deck and place them directly on your bench. If you got all Stray Kids members on your hand and bench, you win"
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Deep Voice",
+							"power": "",
+							"description": "Reduces opponents' passive abilities by 50% effectiveness."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "60"
+						},
+						{
+							"category": "ex",
+							"number": "200"
+						}
+					]
+				},
+				{
+					"name": "Seungmin",
+					"img": {
+						"standard": "https://i.pinimg.com/736x/1f/5d/be/1f5dbe3eab404fae788b178aa511c660.jpg",
+						"ex": "https://pbs.twimg.com/media/GdUd306XYAERLQG.jpg"
+					},
+					"type": "Grass",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Grass",
+							"name": "Harmony Strike",
+							"power": 60,
+							"description": "Deals 60 damage. Boosts the attack of the next Stray Kids card by 20 damage."
+						},
+						{
+							"category": "ex",
+							"type": "Grass",
+							"name": "Golden Voice",
+							"power": 100,
+							"description": "Deals 100 damage. Heals 30 HP from this card."
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Vocal Shield",
+							"power": "",
+							"description": "Heals 20 HP each turn if HP is below 50%."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "70"
+						},
+						{
+							"category": "ex",
+							"number": "180"
+						}
+					]
+				},
+				{
+					"name": "I.N",
+					"img": {
+						"standard": "https://i.pinimg.com/736x/9b/dc/4b/9bdc4be275f80b096903a3eb813db9a6.jpg",
+						"ex": "https://i.pinimg.com/736x/ec/6f/b7/ec6fb782454e115afa80a0c3401df1f4.jpg"
+					},
+					"type": "Flying",
+					"attack": [
+						{
+							"category": "standard",
+							"type": "Flying",
+							"name": "Innocent Light",
+							"power": 50,
+							"description": "Deals 50 damage. Reduces the opponent’s next attack by 10 damage"
+						},
+						{
+							"category": "ex",
+							"type": "Flying",
+							"name": "Starfall Blast",
+							"power": 80,
+							"description": "Deals 80 damage. Flip two coins; for each heads, deal an additional 20 damage."
+						},
+						{
+							"category": "ex",
+							"type": "Passive",
+							"name": "Maknae Power",
+							"power": "",
+							"description": "Gains +20 damage on attacks if there is another Stray Kids member in play. If Bang Chan is in play, gain an extra 40 damage."
+						}
+					],
+					"hp": [
+						{
+							"category": "standard",
+							"number": "70"
+						},
+						{
+							"category": "ex",
+							"number": "180"
+						}
+					]
+				}
+			]
+		}
+	], 
+    "gg":[
+        
+    ]
+}
