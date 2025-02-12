@@ -15,3 +15,7 @@
 	width: 100%;
 	max-width: 800px;
 }
+.home__container__title{
+	margin-bottom: 4rem;
+	font-size: xx-large;
+}

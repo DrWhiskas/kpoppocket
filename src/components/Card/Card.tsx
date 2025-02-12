@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import './card.css';
 import attackData from '../../data/kpop.json';
-import { log } from 'console';
 
 interface CardProps {
 	type: string;
@@ -10,7 +10,6 @@ interface CardProps {
 	group: string;
 	img: string;
 	hp: string;
-    logo: string
 	attacks: {
 		category: string;
 		type: string;
@@ -18,6 +17,7 @@ interface CardProps {
 		power: string | number;
 		description: string;
 	}[];
+	logo: string;
 }
 
 function randomCard() {
@@ -50,15 +50,24 @@ function randomCard() {
 		logo: bg[randomIndex].logo,
 	};
 }
-
 export default function Card() {
 	const [card, setCard] = useState<CardProps | null>(null);
 
 	useEffect(() => {
 		const newCard = randomCard();
 		setCard(newCard);
+
+		// Enregistrer la carte dans la base de données
+		axios
+			.post('http://localhost:5000/cards', newCard)
+			.then((response) => {
+				console.log('Card saved:', response.data);
+			})
+			.catch((error) => {
+				console.error('There was an error saving the card!', error);
+			});
 	}, []);
-	console.log(randomCard);
+
 	if (!card) return null;
 
 	const cardClass = card.type === 'GX' ? 'card card-gx' : 'card card-standard';
@@ -86,27 +95,6 @@ export default function Card() {
 				<img src={card.logo} alt="" />
 			</header>
 			{/* Contenu de la carte */}
-			
 		</article>
 	);
 }
-
-
-/*
-
-<div className="card__content">
-				<div className="card__attacks">
-					{card.attacks.map((attack, index) => (
-						<div key={index} className="card__attack">
-							<header className="card__attack__header">
-								<strong className="card__attack__name">{attack.name}</strong>
-
-							</header>
-
-							{attack.description}
-						</div>
-					))}
-				</div>
-			</div>
-
-*/

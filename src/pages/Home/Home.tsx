@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<div className="home">
 			<section className="home__container">
-				<h1 className="home__container__title">K-POP Trading Card GAME</h1>
+				<h1 className="home__container__title">K-POP Trading Card Game</h1>
 				<Booster />
 			</section>
 		</div>

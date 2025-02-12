@@ -22,6 +22,7 @@ export default function Booster() {
 	}
   return (
 		<div className="booster">
+			<h2 className="booster__title">Open Booster</h2>
 			<img
 				className="booster__background"
 				src="/images/boosterModel.png"
